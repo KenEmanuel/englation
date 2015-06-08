@@ -1,0 +1,107 @@
+/**********  ACCORDION **********/
+.accordion, .menu {
+    background-color: #fff;
+    color: #057fd7;
+    margin: 0;
+    padding: 0;
+    overflow: auto;}
+
+.accordion li {
+    padding: 0;
+    list-style-type: none;}
+
+.accordion-control {
+    background-color: #057fd7;
+    color: #fff;
+    display: block;
+    width: 100%;
+    padding: 0.5em 0.5em 0.5em 0.7em;
+    margin: 0;
+    border-top: 1px solid #666;}
+
+.accordion-panel {
+    display: none;}
+
+.accordion-panel p {
+    margin: 20px;}
+
+/********** TABS **********/
+.tab-list {
+    margin: 0;
+    padding: 0;}
+
+.tab-list li {
+    display: inline-block;
+    list-style-type: none;
+    background-color: #f57d31;
+    font-family: 'Jacques Francois', serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;}
+
+.tab-list li a {
+    color: #f2f2f2;
+    display: block;
+    padding: 3px 10px 3px 10px;}
+
+
+/********** HOVER STATES **********/
+.tab-list li.active, .tab-list li.hover {
+    background-color: #e5e5e5;
+}
+
+.tab-list li.active a, .tab-list li a:hover {
+    color: white;
+    background-color: #057fd7;}
+
+
+/********** PANELS **********/
+.tab-panel {
+    display: none;
+    background-color: #e5e5e5;
+    color: #666;
+    min-height: 150px;
+    overflow: auto;}
+
+.tab-panel.active {
+    display: block;}
+
+.tab-panel p {
+    margin: 20px;}
+
+/*slider*/
+.slide-viewer {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+}
+
+.slide-group {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+}
+
+.slide:first-child {
+    display: block;
+}
+
+.slide-buttons {
+    text-align: center;}
+
+.slide-btn {
+    border: none;
+    background: none;
+    color: #000;
+    font-size: 200%;
+    line-height: 0.5em;}
+
+.slide-btn.active, .slide-btn:hover {
+    color: #ed8e6c;
+    cursor: pointer;}

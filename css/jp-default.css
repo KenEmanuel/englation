@@ -1,0 +1,29 @@
+blockquote {
+    color: #414e58;
+    font-family: メイリオ, MS PGothic, MS Mincho, serif;
+}
+
+button { font-family: メイリオ, MS PGothic, MS Mincho, serif; }
+
+h1 { font-family: メイリオ, MS PGothic, MS Mincho, serif; }
+
+h3 { font-family: メイリオ, MS PGothic, MS Mincho, serif; }
+
+h4 { font-family: メイリオ, MS PGothic, MS Mincho, serif; }
+
+label { font-family: メイリオ, MS PGothic, MS Mincho, serif; }
+
+li { font-family: メイリオ, MS PGothic, MS Mincho, serif; }
+
+p { font-family: メイリオ, MS PGothic, MS Mincho, serif; }
+
+td { font-family: メイリオ, MS PGothic, MS Mincho, serif; }
+
+.english-text {
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.subheader { font-family: メイリオ, MS PGothic, MS Mincho, serif; }
+
+#form { font-family: メイリオ, MS PGothic, MS Mincho, serif; }

@@ -1,0 +1,177 @@
+a { color: #414e58; }
+
+a:hover { text-decoration: none; }
+
+blockquote {
+    font-family: Helvetica, sans-serif;
+    color: #414e58;
+}
+
+blockquote > p { text-align: right; }
+
+button {
+    color: #fff;
+    opacity: .9;
+}
+
+button:hover { opacity: 1; }
+
+footer,
+nav,
+section {
+    border-right: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+}
+
+footer > div > ul > li > a { color: #fff; }
+
+footer > div > ul > li > a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+h1 {
+    color: #414e58;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-top: 4px solid #057fd7;
+}
+
+h3 {
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+h4 {
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+label {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+li {
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    list-style-type: none;
+}
+
+p {
+    color: #414e58;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+table {
+    margin-left: 5%;
+    width: 90%;
+    border: 1px solid #e5e5e5;
+}
+
+td {
+    padding: 10px;
+    color: #414e58;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+}
+
+.blue-button {
+    background-color: #057fd7;
+    border-color: #057fd7;
+}
+
+.btn:hover { color: #fff; }
+
+.button-margin {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.japanese-text {
+    font-family: メイリオ, MS PGothic, MS Mincho, serif;
+    font-weight: lighter;
+}
+
+.marketing-line {
+    display: inline-block;
+    padding: 5px;
+    color: #414e58;
+    background-color: #f5f5f5;
+    opacity: .8;
+}
+
+.my-logo { padding-right: 15px; }
+
+.navbar { margin-bottom: 0; }
+
+.orange-button {
+    background-color: #f57d31;
+    border-color: #f57d31;
+}
+
+.orange-button.active:focus {
+    color: #fff;
+    outline: 5px auto #f57d31;
+}
+
+.subheader {
+    padding-bottom: 10px;
+    color: #414e58;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.submit-button:hover {
+    background-color: #f57d31;
+    border-color: #f57d31;
+}
+
+#copyright {
+    margin: 10px;
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-size: 120%;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#copyright-bg { background-color: #057fd7; }
+
+#english-bg-image { background-image: url("../images/japan-jumbotron.jpg"); }
+
+#footer-nav-menu {
+    color: #fff;
+    text-align: center;
+    background: #f57d31;
+    list-style-type: none;
+}
+
+#form {
+    margin-bottom: 10px;
+    margin-left: 10%;
+    padding: 15px;
+    width: 80%;
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+    background-color: #057fd7;
+    border: 1px solid #057fd7;
+    border-radius: 4px;
+}
+
+#jp-bg-image { background-image: url("../images/nyc-banner.jpg"); }
+
+#padding-fix { padding: 0; }
+
+#upload {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
